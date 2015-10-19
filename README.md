@@ -1,3 +1,4 @@
 # Cardinal
 A simple, lightweight logger that interfaces with Objective-C and Swift.
-Named Cardinal after the management system used in Sword Art Online.
+
+This project is named Cardinal after the management system used in [Sword Art Online](http://myanimelist.net/anime/11757/Sword_Art_Online).
