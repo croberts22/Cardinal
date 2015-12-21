@@ -3,10 +3,11 @@
 //  CardinalExample
 //
 //  Created by Corey Roberts.
+//  Copyright © 2015 Corey Roberts. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "Logger.h"
+#import "Cardinal.h"
 #import "CardinalExample-Swift.h"
 
 @interface AppDelegate ()
@@ -31,7 +32,7 @@
     
     NSArray<Loggable> *loggers = (NSArray <Loggable> *)@[consoleLogger, crashlyticsLogger];
     
-    [[Logger sharedLogger] addLoggers:loggers];
+    [[Cardinal sharedLogger] addLoggers:loggers];
     
     return YES;
 }

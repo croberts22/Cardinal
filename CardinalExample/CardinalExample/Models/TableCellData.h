@@ -2,7 +2,7 @@
 //  TableCellData.h
 //  CardinalExample
 //
-//  Created by Corey Roberts on 12/20/15.
+//  Created by Corey Roberts.
 //  Copyright © 2015 Corey Roberts. All rights reserved.
 //
 

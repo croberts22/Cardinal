@@ -7,48 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C031B4F1BE6BE1D00842CAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C031B4E1BE6BE1D00842CAE /* main.m */; };
-		2C031B521BE6BE1D00842CAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C031B511BE6BE1D00842CAE /* AppDelegate.m */; };
-		2C031B551BE6BE1D00842CAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C031B541BE6BE1D00842CAE /* ViewController.m */; };
 		2C031B581BE6BE1D00842CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C031B561BE6BE1D00842CAE /* Main.storyboard */; };
 		2C031B5A1BE6BE1D00842CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C031B591BE6BE1D00842CAE /* Assets.xcassets */; };
 		2C031B5D1BE6BE1D00842CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C031B5B1BE6BE1D00842CAE /* LaunchScreen.storyboard */; };
 		2C031B651BE6BEB100842CAE /* Cardinal in Resources */ = {isa = PBXBuildFile; fileRef = 2C031B641BE6BEB100842CAE /* Cardinal */; };
-		2C031B711BE6BF4500842CAE /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C031B691BE6BF4500842CAE /* Logger.m */; };
-		2C031B721BE6BF4500842CAE /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C031B6A1BE6BF4500842CAE /* Logger.swift */; };
+		2C031B711BE6BF4500842CAE /* Cardinal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C031B691BE6BF4500842CAE /* Cardinal.m */; };
+		2C031B721BE6BF4500842CAE /* Cardinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C031B6A1BE6BF4500842CAE /* Cardinal.swift */; };
 		2C031B731BE6BF4500842CAE /* ConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C031B6C1BE6BF4500842CAE /* ConsoleLogger.swift */; };
 		2C031B741BE6BF4500842CAE /* CrashlyticsLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C031B6D1BE6BF4500842CAE /* CrashlyticsLogger.swift */; };
-		2C031B751BE6BF4500842CAE /* FileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C031B6E1BE6BF4500842CAE /* FileLogger.swift */; };
 		2C031B761BE6BF4500842CAE /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C031B6F1BE6BF4500842CAE /* Loggable.swift */; };
 		2C031B771BE6BF4500842CAE /* LogMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C031B701BE6BF4500842CAE /* LogMessage.swift */; };
-		2C21C67A1C0AA5730009CEF9 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21C6791C0AA5730009CEF9 /* SwiftViewController.swift */; };
 		2CF252111C278C36009280F1 /* TableCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF252101C278C36009280F1 /* TableCellData.m */; };
+		2CF2521F1C27A5C3009280F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF252181C27A5C3009280F1 /* main.m */; };
+		2CF252201C27A5C3009280F1 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2521A1C27A5C3009280F1 /* SwiftViewController.swift */; };
+		2CF252211C27A5C3009280F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2521C1C27A5C3009280F1 /* ViewController.m */; };
+		2CF252251C27A705009280F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF252231C27A705009280F1 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C031B4A1BE6BE1D00842CAE /* CardinalExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardinalExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C031B4E1BE6BE1D00842CAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		2C031B501BE6BE1D00842CAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		2C031B511BE6BE1D00842CAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		2C031B531BE6BE1D00842CAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		2C031B541BE6BE1D00842CAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2C031B571BE6BE1D00842CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C031B591BE6BE1D00842CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C031B5C1BE6BE1D00842CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2C031B5E1BE6BE1D00842CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C031B641BE6BEB100842CAE /* Cardinal */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Cardinal; path = /Users/spacepyro/Projects/Cardinal_gh/Cardinal; sourceTree = "<absolute>"; };
-		2C031B681BE6BF4500842CAE /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Logger.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		2C031B691BE6BF4500842CAE /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Logger.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		2C031B6A1BE6BF4500842CAE /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Logger.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2C031B681BE6BF4500842CAE /* Cardinal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Cardinal.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2C031B691BE6BF4500842CAE /* Cardinal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Cardinal.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		2C031B6A1BE6BF4500842CAE /* Cardinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Cardinal.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C031B6C1BE6BF4500842CAE /* ConsoleLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ConsoleLogger.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C031B6D1BE6BF4500842CAE /* CrashlyticsLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CrashlyticsLogger.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		2C031B6E1BE6BF4500842CAE /* FileLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = FileLogger.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C031B6F1BE6BF4500842CAE /* Loggable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Loggable.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C031B701BE6BF4500842CAE /* LogMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = LogMessage.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		2C031B781BE6BF7300842CAE /* CardinalExample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CardinalExample-Bridging-Header.h"; sourceTree = "<group>"; };
-		2C21C6791C0AA5730009CEF9 /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		2CF2520F1C278C36009280F1 /* TableCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCellData.h; sourceTree = "<group>"; };
 		2CF252101C278C36009280F1 /* TableCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCellData.m; sourceTree = "<group>"; };
+		2CF252171C27A5C3009280F1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF252181C27A5C3009280F1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CF2521A1C27A5C3009280F1 /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		2CF2521B1C27A5C3009280F1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CF2521C1C27A5C3009280F1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CF252221C27A705009280F1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CF252231C27A705009280F1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CF252241C27A705009280F1 /* CardinalExample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CardinalExample-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,36 +80,25 @@
 			isa = PBXGroup;
 			children = (
 				2CF2520E1C278C36009280F1 /* Models */,
+				2CF252191C27A5C3009280F1 /* ViewControllers */,
 				2C031B671BE6BF4500842CAE /* Cardinal */,
-				2C031B501BE6BE1D00842CAE /* AppDelegate.h */,
-				2C031B511BE6BE1D00842CAE /* AppDelegate.m */,
-				2C031B531BE6BE1D00842CAE /* ViewController.h */,
-				2C031B541BE6BE1D00842CAE /* ViewController.m */,
-				2C21C6791C0AA5730009CEF9 /* SwiftViewController.swift */,
-				2C031B561BE6BE1D00842CAE /* Main.storyboard */,
+				2CF252131C27A5C3009280F1 /* Supporting Files */,
 				2C031B591BE6BE1D00842CAE /* Assets.xcassets */,
+				2CF252221C27A705009280F1 /* AppDelegate.h */,
+				2CF252231C27A705009280F1 /* AppDelegate.m */,
+				2CF252241C27A705009280F1 /* CardinalExample-Bridging-Header.h */,
+				2C031B561BE6BE1D00842CAE /* Main.storyboard */,
 				2C031B5B1BE6BE1D00842CAE /* LaunchScreen.storyboard */,
-				2C031B5E1BE6BE1D00842CAE /* Info.plist */,
-				2C031B4D1BE6BE1D00842CAE /* Supporting Files */,
 			);
 			path = CardinalExample;
-			sourceTree = "<group>";
-		};
-		2C031B4D1BE6BE1D00842CAE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2C031B4E1BE6BE1D00842CAE /* main.m */,
-				2C031B781BE6BF7300842CAE /* CardinalExample-Bridging-Header.h */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		2C031B671BE6BF4500842CAE /* Cardinal */ = {
 			isa = PBXGroup;
 			children = (
-				2C031B681BE6BF4500842CAE /* Logger.h */,
-				2C031B691BE6BF4500842CAE /* Logger.m */,
-				2C031B6A1BE6BF4500842CAE /* Logger.swift */,
+				2C031B681BE6BF4500842CAE /* Cardinal.h */,
+				2C031B691BE6BF4500842CAE /* Cardinal.m */,
+				2C031B6A1BE6BF4500842CAE /* Cardinal.swift */,
 				2C031B6B1BE6BF4500842CAE /* Loggers */,
 				2C031B701BE6BF4500842CAE /* LogMessage.swift */,
 			);
@@ -123,7 +110,6 @@
 			children = (
 				2C031B6C1BE6BF4500842CAE /* ConsoleLogger.swift */,
 				2C031B6D1BE6BF4500842CAE /* CrashlyticsLogger.swift */,
-				2C031B6E1BE6BF4500842CAE /* FileLogger.swift */,
 				2C031B6F1BE6BF4500842CAE /* Loggable.swift */,
 			);
 			path = Loggers;
@@ -136,6 +122,25 @@
 				2CF252101C278C36009280F1 /* TableCellData.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2CF252131C27A5C3009280F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CF252171C27A5C3009280F1 /* Info.plist */,
+				2CF252181C27A5C3009280F1 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CF252191C27A5C3009280F1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CF2521A1C27A5C3009280F1 /* SwiftViewController.swift */,
+				2CF2521B1C27A5C3009280F1 /* ViewController.h */,
+				2CF2521C1C27A5C3009280F1 /* ViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,18 +214,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF252251C27A705009280F1 /* AppDelegate.m in Sources */,
 				2CF252111C278C36009280F1 /* TableCellData.m in Sources */,
-				2C031B721BE6BF4500842CAE /* Logger.swift in Sources */,
-				2C031B551BE6BE1D00842CAE /* ViewController.m in Sources */,
-				2C21C67A1C0AA5730009CEF9 /* SwiftViewController.swift in Sources */,
-				2C031B521BE6BE1D00842CAE /* AppDelegate.m in Sources */,
-				2C031B751BE6BF4500842CAE /* FileLogger.swift in Sources */,
+				2C031B721BE6BF4500842CAE /* Cardinal.swift in Sources */,
 				2C031B731BE6BF4500842CAE /* ConsoleLogger.swift in Sources */,
 				2C031B741BE6BF4500842CAE /* CrashlyticsLogger.swift in Sources */,
+				2CF252211C27A5C3009280F1 /* ViewController.m in Sources */,
 				2C031B761BE6BF4500842CAE /* Loggable.swift in Sources */,
-				2C031B4F1BE6BE1D00842CAE /* main.m in Sources */,
 				2C031B771BE6BF4500842CAE /* LogMessage.swift in Sources */,
-				2C031B711BE6BF4500842CAE /* Logger.m in Sources */,
+				2CF2521F1C27A5C3009280F1 /* main.m in Sources */,
+				2CF252201C27A5C3009280F1 /* SwiftViewController.swift in Sources */,
+				2C031B711BE6BF4500842CAE /* Cardinal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,11 +336,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CardinalExample/Info.plist;
+				INFOPLIST_FILE = "CardinalExample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coreyroberts.CardinalExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/CardinalExample/CardinalExample-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(TARGET_NAME)/$TARGET_NAME-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -344,11 +348,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CardinalExample/Info.plist;
+				INFOPLIST_FILE = "CardinalExample/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coreyroberts.CardinalExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/CardinalExample/CardinalExample-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(TARGET_NAME)/$TARGET_NAME-Bridging-Header.h";
 			};
 			name = Release;
 		};
