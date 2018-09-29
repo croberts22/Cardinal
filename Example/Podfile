@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Cardinal_Example' do
+  pod 'Cardinal', :path => '../'
+
+  target 'Cardinal_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
