@@ -1,0 +1,16 @@
+PODS:
+  - Cardinal (0.1.0)
+
+DEPENDENCIES:
+  - Cardinal (from `../`)
+
+EXTERNAL SOURCES:
+  Cardinal:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Cardinal: a92436e65e417ee461d8731ae0c5b5047d62cf41
+
+PODFILE CHECKSUM: 4a2f8fbe75b7917435f33f2f8ae3bcc9fe41c791
+
+COCOAPODS: 1.5.3

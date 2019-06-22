@@ -1,0 +1,6 @@
+framework module Cardinal {
+  umbrella header "Cardinal-umbrella.h"
+
+  export *
+  module * { export * }
+}
