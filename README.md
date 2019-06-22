@@ -1,3 +1,9 @@
+![cardinal](http://i.imgur.com/7yAWJhA.png)
+
+A simple, lightweight logger management system.
+
+This project is named [Cardinal](http://swordartonline.wikia.com/wiki/Cardinal_System) after the management system (and ultimately, the character) used in [Sword Art Online](http://myanimelist.net/anime/11757/Sword_Art_Online).
+
 # Cardinal
 
 [![CI Status](https://img.shields.io/travis/Corey Roberts/Cardinal.svg?style=flat)](https://travis-ci.org/Corey Roberts/Cardinal)
